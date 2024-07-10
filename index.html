@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAT Calculator - South Africa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VAT Calculator - South Africa</h1>
+        <div class="input-section">
+            <label for="totalAmount">Total Amount (ZAR):</label>
+            <input type="number" id="totalAmount" placeholder="Enter total amount" step="0.01">
+        </div>
+        <div class="input-section">
+            <label for="vatRate">VAT Rate (%):</label>
+            <input type="number" id="vatRate" placeholder="Enter VAT rate">
+        </div>
+        <button id="calculateIncludingVAT">Calculate Including VAT</button>
+        <button id="calculateExcludingVAT">Calculate Excluding VAT</button>
+        <div class="result" id="result"></div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
